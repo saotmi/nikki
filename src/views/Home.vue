@@ -1,18 +1,20 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+<div class="flex">
+  <h1>{{ new Date() | moment('LTS') }}</h1>
+  <textarea name="text"></textarea>
+</div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
-export default {
-  name: 'Home',
-  components: {
-    HelloWorld
-  }
-}
 </script>
+
+<style scoped>
+h1 {
+  font-size: 20px;
+  padding: 50px 0 20px 50px;
+}
+textarea {
+  border: #fff;
+  margin: 50px;
+}
+</style>
