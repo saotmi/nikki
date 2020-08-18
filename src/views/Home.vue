@@ -1,7 +1,7 @@
 <template>
 <div class="flex">
   <h1>{{ new Date() | moment('LTS') }}</h1>
-  <textarea name="text"></textarea>
+  <textarea name="text" rows=""></textarea>  
 </div>
 </template>
 

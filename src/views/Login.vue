@@ -44,7 +44,7 @@ button {
   background-color: #ff69b4;
   border-radius: 15px;
   cursor: pointer;
-  margin: 20px 0 0 100px;
+  margin: 20px auto;
 }
 .card {
   margin: 100px auto;
