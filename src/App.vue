@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+ <div id="app">
    <router-view />
  </div>
 </template>
@@ -97,11 +97,11 @@ hr {
 }
 
 input, select {
-    vertical-align: middle;
+    vertical-align:middle;
 }
 
 html {
-  background-color: #ffc0cb;
+  background-color: #ffffff;
 }
 * {
   color: white;
