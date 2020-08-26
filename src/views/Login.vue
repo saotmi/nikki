@@ -40,8 +40,8 @@ button {
   width: 100px;
   text-align: center;
   padding: 8px 0 10px;
-  color: #fff;
-  background-color: #5419da;
+  color: rgb(83, 81, 81);
+  background-color: #fff;
   border-radius: 25px;
   cursor: pointer;
 }
@@ -53,7 +53,7 @@ button {
   padding: 20px;
 }
 .card p {
-  color: black;
+  color: rgb(65, 64, 64);
   font-weight: bold;
   text-align: center;
 }

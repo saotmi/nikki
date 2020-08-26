@@ -3,7 +3,7 @@
       <div class="left">
         <img class="logo" src="../assets/icon_020010_256.png" alt />
       </div>
-      <div class="right flez">
+      <div class="right flex">
         <p @click="$router.push('/signup')">新規登録</p>
         <p @click="$router.push('/')">ログイン</p>
       </div>
@@ -19,10 +19,10 @@
  cursor: pointer;
 }
 .header {
- margin: 20px;
+ margin: 30px;
 }
 .logo {
- width: 150px;
+ width: 140px;
  cursor: pointer;
 }
 .flex {

@@ -93,7 +93,7 @@ button {
   width: 100px;
   text-align: center;
   padding: 8px 0 10px;
-  color: #fff;
+  color: rgb;
   background-color: #fff;
   border-radius: 15px;
   cursor: pointer;
@@ -106,7 +106,7 @@ button {
   padding: 20px;
 }
 .card p {
-  color: black;
+  color: rgb(75, 70, 70);
   font-weight: bold;
   text-align: center;
 }
