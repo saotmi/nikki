@@ -49,7 +49,7 @@ export default {
         this.shares[index].like.forEach((element) => {
           if (element.user_id == this.$store.state.user.id) {
             axios
-            .delete("https://murmuring-atoll-85843.herokuapp.com/api/like", {
+            .delete("https://tranquil-reef-09655.herokuapp.com/api/like", {
               data: {
                 share_id: this.shares[index].item.id,
                 user_id: this.$store.state.user.id,
@@ -66,7 +66,7 @@ export default {
     });
   } else {
     axios
-    .post("https://murmuring-atoll-85843.herokuapp.com/api/like", {
+    .post("https://tranquil-reef-09655.herokuapp.com//api/like", {
       share_id: this.shares[index].item.id,
       user_id: this.$store.state.user.id,
     })
@@ -96,13 +96,13 @@ del(index) {
     async getShares() {
       let data = [];
       let shares = await axios.get(
-        "https://murmuring-atoll-85843.herokuapp.com/api/shares"
+        "https://tranquil-reef-09655.herokuapp.com//api/shares"
       );
       for (let i = 0; i < shares.data.data.length; i++) {
         await axios
           .get(
-            "https://murmuring-atoll-85843.herokuapp.com/api/shares/" +
-              shares.data.data[i].id
+            "https://tranquil-reef-09655.herokuapp.com//api/shares/" +
+              shares.data.data[i].idhttps
           )
           .then((response) => {
             if (this.$route.name == "profile") {

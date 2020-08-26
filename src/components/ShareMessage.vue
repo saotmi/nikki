@@ -22,7 +22,7 @@ export default {
         alert("シェアする内容を入力してください");
       } else {
         axios
-          .post("https://murmuring-atoll-85843.herokuapp.com/api/shares", {
+          .post("https://tranquil-reef-09655.herokuapp.com//api/shares", {
             user_id: this.$store.state.user.id,
             share: this.share,
           })
